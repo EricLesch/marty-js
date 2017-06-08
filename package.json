@@ -1,0 +1,60 @@
+{
+  "name": "marty",
+  "version": "0.11.2",
+  "description": "A Javascript library for state management in React applications",
+  "main": "marty.js",
+  "directories": {
+    "doc": "./doc",
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:martyjs/marty.git"
+  },
+  "keywords": [
+    "react",
+    "flux"
+  ],
+  "dependencies": {
+    "es6-promise": "^2.0.0",
+    "isomorphic-fetch": "^2.1.0",
+    "marty-lib": "^0.11.0",
+    "react": "15.x",
+    "react-dom": "15.x"
+  },
+  "devDependencies": {
+    "babel": "^5.0.0",
+    "babelify": "^6.0.0",
+    "browserify": "^10.0.0",
+    "bundle-collapser": "^1.2.0",
+    "semver": "^4.2.0",
+    "uglify-js": "^2.4.23"
+  },
+  "peerDependencies": {
+    "react": "15.x",
+    "react-dom": "15.x"
+  },
+  "author": "James Hollingworth",
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/martyjs/marty/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/martyjs/marty/issues"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "homepage": "https://martyjs.org",
+  "typescript": {
+    "definition": "marty.d.ts"
+  }
+}
